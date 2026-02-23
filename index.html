@@ -1,14 +1,63 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Your Name — Portfolio</title>
+  <link rel="stylesheet" href="/assets/style.css" />
 </head>
 <body>
-    <h1>hello world</h1>
-    <h1> testing </h1>
-    <h2> what is this </h2>
-    <h3 style="color: red;"> this is a test </h3>
+  <div class="container">
+    <nav class="nav" aria-label="Primary navigation">
+      <div class="brand">
+        <span class="dot" aria-hidden="true"></span>
+        <span>Your Name</span>
+      </div>
+
+      <div class="navlinks">
+        <a class="pill active" href="/index.html">Home</a>
+        <a class="pill" href="/projects.html">Projects</a>
+        <a class="pill" href="/about.html">About</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="kicker">Mechanical Engineering • Controls • Built things</div>
+      <h1>Hi, I’m Your Name. I design and build systems that move.</h1>
+      <p class="sub">
+        This is a simple GitHub Pages portfolio with multiple pages connected by normal links.
+        Edit the text, add project cards, and link out to repos, papers, videos, or a resume.
+      </p>
+
+      <div class="actions">
+        <a class="btn primary" href="/projects.html">See projects</a>
+        <a class="btn" href="/about.html">About me</a>
+        <a class="btn" href="https://github.com/0Denis0">GitHub ↗</a>
+      </div>
+    </section>
+
+    <section class="grid" aria-label="Featured projects">
+      <article class="card">
+        <h3>Project One — Short title</h3>
+        <p>
+          1–2 sentences describing the problem, your approach, and the result.
+          Mention tools (Python, CAD, embedded, etc.) and what you learned.
+        </p>
+        <div class="meta">Tags: controls, embedded, robotics • <a href="/projects.html">details →</a></div>
+      </article>
+
+      <article class="card">
+        <h3>Project Two — Short title</h3>
+        <p>
+          A second highlight. Keep it skimmable. Link to a demo, write-up, or repo.
+        </p>
+        <div class="meta">Tags: simulation, design, analysis • <a href="/projects.html">details →</a></div>
+      </article>
+    </section>
+
+    <div class="footer">
+      Built with plain HTML/CSS. Hosted on GitHub Pages. No framework required.
+    </div>
+  </div>
 </body>
 </html>
